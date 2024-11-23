@@ -3,6 +3,7 @@ import DebitCard from "./components/DebitCard";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Offers from "./components/Offers";
+import PerfectCard from "./components/PerfectCard";
 import Vision from "./components/Vision";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Vision />
           <Offers />
           <DebitCard />
+          <PerfectCard />
         </div>
       </div>
     </main>
