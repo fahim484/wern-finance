@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Offers from "./components/Offers";
 import Vision from "./components/Vision";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <div className="space-y-[128px]">
           <Hero />
           <Vision />
+          <Offers />
         </div>
       </div>
     </main>
