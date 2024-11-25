@@ -5,8 +5,7 @@ import { GoArrowRight } from "react-icons/go";
 function DebitCard() {
   return (
     <section className="flex flex-col-reverse sm:flex-row gap-10 lg:gap-2.5 xl:gap-8 justify-between items-center">
-        <div className="space-y-3 sm:space-y-6 sm:w-1/2">
-
+      <div className="space-y-3 sm:space-y-6 sm:w-1/2">
         <h2 className="font-bold leading-tight text-2xl lg:text-3xl">
           Wern Debit Card
         </h2>
@@ -25,17 +24,17 @@ function DebitCard() {
             color="primary"
             className="font-bold text-sm"
           >
-            Create New Card<GoArrowRight size={25} />
+            Create New Card
+            <GoArrowRight size={25} />
           </Button>
 
           <p className="text-primary ml-4">Will be available soon</p>
         </div>
+      </div>
 
-        </div>
-
-        <img className="sm:w-1/2" src={debitCard} alt="" />
+      <img className="sm:w-1/2" src={debitCard} alt="" />
     </section>
-  )
+  );
 }
 
-export default DebitCard
+export default DebitCard;

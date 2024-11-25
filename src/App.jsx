@@ -1,5 +1,6 @@
 import "./App.css";
 import DebitCard from "./components/DebitCard";
+import Feedbacks from "./components/Feedbacks";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Offers from "./components/Offers";
@@ -17,6 +18,7 @@ function App() {
           <Offers />
           <DebitCard />
           <PerfectCard />
+          <Feedbacks />
         </div>
       </div>
     </main>
