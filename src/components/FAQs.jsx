@@ -1,5 +1,4 @@
 import { Accordion, AccordionItem } from "@nextui-org/accordion";
-import React from "react";
 
 const faqs = [
   {

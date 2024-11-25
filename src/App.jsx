@@ -2,6 +2,7 @@ import "./App.css";
 import DebitCard from "./components/DebitCard";
 import FAQs from "./components/FAQs";
 import Feedbacks from "./components/Feedbacks";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Offers from "./components/Offers";
@@ -23,6 +24,7 @@ function App() {
           <FAQs />
         </div>
       </div>
+      <Footer />
     </main>
   );
 }
